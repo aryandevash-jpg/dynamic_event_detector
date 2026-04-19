@@ -1,217 +1,217 @@
 topic_id,keywords,news_count,meme_score,label
 0,"['borderlands', 'overwatch', 'game', 'like', 'twitch', 'playing', 'play', 'stream']",0,0.3629662990570068,NOISE (GAMING)
-1,"['iran', 'police', 'after', 'mass', 'people', 'down', 'suicide', 'been']",0,0.4624404907226562,NOISE
-2,"['trump', 'bernie', 'about', 'donald', 'obama', 'clinton', 'president', 'house']",0,0.4605897665023803,NOISE
-3,"['amazon', 'shit', 'order', 'within', 'prime', 'apple', 'delivery', 'bezos']",0,0.4450206756591797,NOISE
-4,"['fire', 'fires', 'australia', 'smoke', 'burning', 'buildings', 'bush', 'arson']",0,0.4492508172988891,NOISE
-5,"['black', 'cold', 'call', 'duty', 'beta', 'game', 'like', 'really']",0,0.3793438374996185,NOISE
-6,"['amazon', 'chance', 'gift', 'card', 'play', 'video', 'another', 'free']",0,0.4303518533706665,NOISE
+1,"['iran', 'police', 'after', 'mass', 'people', 'down', 'suicide', 'been']",50,0.4624404907226562,POSSIBLE EVENT
+2,"['trump', 'bernie', 'about', 'donald', 'obama', 'clinton', 'president', 'house']",50,0.4605897665023803,POSSIBLE EVENT
+3,"['amazon', 'shit', 'order', 'within', 'prime', 'apple', 'delivery', 'bezos']",50,0.4450206756591797,POSSIBLE EVENT
+4,"['fire', 'fires', 'australia', 'smoke', 'burning', 'buildings', 'bush', 'arson']",50,0.4492508172988891,POSSIBLE EVENT
+5,"['black', 'cold', 'call', 'duty', 'beta', 'game', 'like', 'really']",50,0.3793438374996185,REAL EVENT
+6,"['amazon', 'chance', 'gift', 'card', 'play', 'video', 'another', 'free']",50,0.4303518533706665,POSSIBLE EVENT
 7,"['xbox', 'series', 'more', 'going', 'wait', 'than', 'look', 'playstation']",0,0.3959629833698272,NOISE (GAMING)
-8,"['perfect', 'shit', 'damn', 'good', 'about', 'perfection', 'there', 'trying']",0,0.3575315773487091,NOISE
-9,"['child', 'parents', 'mother', 'baby', 'year', 'grandma', 'kids', 'family']",0,0.7564456462860107,MEME
-10,"['sirens', 'screaming', 'screamed', 'loud', 'like', 'panic', 'bang', 'panicking']",0,0.4252635240554809,NOISE
-11,"['storm', 'flood', 'dust', 'hurricane', 'snowstorm', 'rain', 'drought', 'weather']",0,0.4255487322807312,NOISE
-12,"['volcano', 'taal', 'eruption', 'emergency', 'philippines', 'services', 'batangas', 'ambulance']",0,0.389892429113388,NOISE
-13,"['like', 'amazon', 'food', 'barrel', 'monkeys', 'good', 'delicious', 'burger']",0,0.6575558185577393,MEME
-14,"['women', 'people', 'woman', 'couple', 'wedding', 'girlfriend', 'about', 'girl']",0,0.7693332433700562,MEME
-15,"['music', 'amazon', 'album', 'song', 'still', 'soon', 'neil', 'very']",0,0.4322934448719024,NOISE
-16,"['quarantined', 'quarantine', 'outbreak', 'thailand', 'bioterrorism', 'virus', 'woman', 'mystery']",0,0.4519984126091003,NOISE
-17,"['amazon', 'book', 'read', 'love', 'would', 'review', 'grab', 'good']",0,0.4399680197238922,NOISE
-18,"['amazon', 'prime', 'season', 'netflix', 'love', 'watching', 'show', 'good']",0,0.4301265776157379,NOISE
-19,"['drowning', 'drown', 'drowned', 'water', 'like', 'still', 'love', 'save']",0,0.4182045757770538,NOISE
-20,"['earthquake', 'puerto', 'rico', 'seismic', 'aftershock', 'another', 'magnitude', 'after']",0,0.430242657661438,NOISE
-21,"['collision', 'road', 'between', 'traffic', 'fatalities', 'lanes', 'there', 'lane']",0,0.4089385867118835,NOISE
-22,"['demolition', 'demolish', 'demolished', 'house', 'buildings', 'razed', 'construction', 'about']",0,0.3800259530544281,NOISE
-23,"['people', 'money', 'world', 'work', 'debt', 'market', 'economy', 'report']",0,0.5994651913642883,MEME
-24,"['fear', 'love', 'feel', 'like', 'heart', 'reality', 'life', 'being']",0,0.4365971386432647,NOISE
-25,"['fuck', 'fucking', 'hell', 'lets', 'woah', 'thank', 'bloody', 'gooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo']",0,0.3453559875488281,NOISE
-26,"['injury', 'hazard', 'injuries', 'injured', 'back', 'been', 'could', 'season']",0,0.3485651910305023,NOISE
-27,"['twitter', 'tweet', 'please', 'much', 'fuck', 'like', 'finally', 'found']",0,0.4015790522098541,NOISE
+8,"['perfect', 'shit', 'damn', 'good', 'about', 'perfection', 'there', 'trying']",50,0.3575315773487091,REAL EVENT
+9,"['child', 'parents', 'mother', 'baby', 'year', 'grandma', 'kids', 'family']",50,0.7564456462860107,MEME
+10,"['sirens', 'screaming', 'screamed', 'loud', 'like', 'panic', 'bang', 'panicking']",50,0.4252635240554809,POSSIBLE EVENT
+11,"['storm', 'flood', 'dust', 'hurricane', 'snowstorm', 'rain', 'drought', 'weather']",50,0.4255487322807312,POSSIBLE EVENT
+12,"['volcano', 'taal', 'eruption', 'emergency', 'philippines', 'services', 'batangas', 'ambulance']",16,0.389892429113388,POSSIBLE EVENT
+13,"['like', 'amazon', 'food', 'barrel', 'monkeys', 'good', 'delicious', 'burger']",50,0.6575558185577393,MEME
+14,"['women', 'people', 'woman', 'couple', 'wedding', 'girlfriend', 'about', 'girl']",50,0.7693332433700562,MEME
+15,"['music', 'amazon', 'album', 'song', 'still', 'soon', 'neil', 'very']",50,0.4322934448719024,POSSIBLE EVENT
+16,"['quarantined', 'quarantine', 'outbreak', 'thailand', 'bioterrorism', 'virus', 'woman', 'mystery']",50,0.4519984126091003,POSSIBLE EVENT
+17,"['amazon', 'book', 'read', 'love', 'would', 'review', 'grab', 'good']",50,0.4399680197238922,POSSIBLE EVENT
+18,"['amazon', 'prime', 'season', 'netflix', 'love', 'watching', 'show', 'good']",50,0.4301265776157379,POSSIBLE EVENT
+19,"['drowning', 'drown', 'drowned', 'water', 'like', 'still', 'love', 'save']",50,0.4182045757770538,POSSIBLE EVENT
+20,"['earthquake', 'puerto', 'rico', 'seismic', 'aftershock', 'another', 'magnitude', 'after']",50,0.430242657661438,POSSIBLE EVENT
+21,"['collision', 'road', 'between', 'traffic', 'fatalities', 'lanes', 'there', 'lane']",50,0.4089385867118835,POSSIBLE EVENT
+22,"['demolition', 'demolish', 'demolished', 'house', 'buildings', 'razed', 'construction', 'about']",50,0.3800259530544281,REAL EVENT
+23,"['people', 'money', 'world', 'work', 'debt', 'market', 'economy', 'report']",50,0.5994651913642883,MEME
+24,"['fear', 'love', 'feel', 'like', 'heart', 'reality', 'life', 'being']",50,0.4365971386432647,POSSIBLE EVENT
+25,"['fuck', 'fucking', 'hell', 'lets', 'woah', 'thank', 'bloody', 'gooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo']",50,0.3453559875488281,REAL EVENT
+26,"['injury', 'hazard', 'injuries', 'injured', 'back', 'been', 'could', 'season']",50,0.3485651910305023,REAL EVENT
+27,"['twitter', 'tweet', 'please', 'much', 'fuck', 'like', 'finally', 'found']",50,0.4015790522098541,POSSIBLE EVENT
 28,"['train', 'derailment', 'hitchin', 'freight', 'derailed', 'morning', 'there', 'speed']",0,0.3904388546943664,NOISE
-29,"['climate', 'change', 'more', 'emergency', 'could', 'global', 'world', 'warming']",0,0.6038349270820618,MEME
-30,"['casting', 'film', 'trailer', 'amazing', 'wrong', 'love', 'would', 'lilith']",0,0.6532391309738159,MEME
-31,"['rescuers', 'animals', 'rescue', 'rescued', 'please', 'dogs', 'still', 'home']",0,0.6451740264892578,MEME
-32,"['nuclear', 'reactor', 'disaster', 'fukushima', 'after', 'years', 'power', 'nine']",0,0.4381009936332702,NOISE
-33,"['blood', 'bleeding', 'doctor', 'nose', 'more', 'after', 'please', 'would']",0,0.4529815018177032,NOISE
-34,"['body', 'bags', 'bagging', 'like', 'governor', 'buri', 'dead', 'know']",0,0.4679693877696991,NOISE
-35,"['taehyung', 'yoongi', 'jungkook', 'want', 'shit', 'yuri', 'english', 'scary']",0,0.4027884602546692,NOISE
-36,"['white', 'black', 'racism', 'anti', 'racist', 'people', 'call', 'being']",0,0.7255855798721313,MEME
-37,"['sinkhole', 'china', 'swallows', 'dead', 'least', 'after', 'killed', 'people']",0,0.5047977566719055,NOISE
-38,"['life', 'them', 'hellfire', 'here', 'shall', 'those', 'fear', 'protect']",0,0.5690808892250061,MEME
-39,"['electrocute', 'like', 'electric', 'wind', 'turbines', 'chop', 'wires', 'millions']",0,0.4115521907806396,NOISE
-40,"['coffee', 'life', 'there', 'wine', 'drunk', 'drink', 'love', 'coke']",0,0.6170042753219604,MEME
-41,"['obliterate', 'damage', 'devastation', 'destroy', 'peak', 'obliterated', 'them', 'anyone']",0,0.3833659589290619,NOISE
-42,"['refugees', 'displaced', 'children', 'refugee', 'country', 'citizenship', 'people', 'child']",0,0.6178414821624756,MEME
-43,"['fuck', 'perks', 'such', 'pain', 'shit', 'burn', 'again', 'been']",0,0.3495426177978515,NOISE
-44,"['excited', 'brother', 'happy', 'about', 'finally', 'squad', 'great', 'believe']",0,0.3731923401355743,NOISE
+29,"['climate', 'change', 'more', 'emergency', 'could', 'global', 'world', 'warming']",50,0.6038349270820618,MEME
+30,"['casting', 'film', 'trailer', 'amazing', 'wrong', 'love', 'would', 'lilith']",50,0.6532391309738159,MEME
+31,"['rescuers', 'animals', 'rescue', 'rescued', 'please', 'dogs', 'still', 'home']",50,0.6451740264892578,MEME
+32,"['nuclear', 'reactor', 'disaster', 'fukushima', 'after', 'years', 'power', 'nine']",50,0.4381009936332702,POSSIBLE EVENT
+33,"['blood', 'bleeding', 'doctor', 'nose', 'more', 'after', 'please', 'would']",50,0.4529815018177032,POSSIBLE EVENT
+34,"['body', 'bags', 'bagging', 'like', 'governor', 'buri', 'dead', 'know']",50,0.4679693877696991,POSSIBLE EVENT
+35,"['taehyung', 'yoongi', 'jungkook', 'want', 'shit', 'yuri', 'english', 'scary']",2,0.4027884602546692,NOISE
+36,"['white', 'black', 'racism', 'anti', 'racist', 'people', 'call', 'being']",50,0.7255855798721313,MEME
+37,"['sinkhole', 'china', 'swallows', 'dead', 'least', 'after', 'killed', 'people']",50,0.5047977566719055,POSSIBLE EVENT
+38,"['life', 'them', 'hellfire', 'here', 'shall', 'those', 'fear', 'protect']",50,0.5690808892250061,MEME
+39,"['electrocute', 'like', 'electric', 'wind', 'turbines', 'chop', 'wires', 'millions']",16,0.4115521907806396,POSSIBLE EVENT
+40,"['coffee', 'life', 'there', 'wine', 'drunk', 'drink', 'love', 'coke']",50,0.6170042753219604,MEME
+41,"['obliterate', 'damage', 'devastation', 'destroy', 'peak', 'obliterated', 'them', 'anyone']",50,0.3833659589290619,POSSIBLE EVENT
+42,"['refugees', 'displaced', 'children', 'refugee', 'country', 'citizenship', 'people', 'child']",50,0.6178414821624756,MEME
+43,"['fuck', 'perks', 'such', 'pain', 'shit', 'burn', 'again', 'been']",12,0.3495426177978515,REAL EVENT
+44,"['excited', 'brother', 'happy', 'about', 'finally', 'squad', 'great', 'believe']",50,0.3731923401355743,REAL EVENT
 45,"['awesome', 'sure', 'enter', 'miss', 'stuck', 'home', 'down', 'completed']",0,0.3881114721298218,NOISE
-46,"['hyped', 'movie', 'shit', 'fucking', 'everyone', 'guys', 'would', 'watch']",0,0.4157850742340088,NOISE
-47,"['hijacker', 'account', 'hijacking', 'hijack', 'email', 'cable', 'tesla', 'hacking']",0,0.4269568920135498,NOISE
-48,"['stretcher', 'like', 'stretch', 'carried', 'after', 'section', 'need', 'love']",0,0.4244572818279266,NOISE
-49,"['amazon', 'masks', 'about', 'face', 'take', 'mask', 'find', 'over']",0,0.4403963685035705,NOISE
-50,"['teacher', 'college', 'students', 'student', 'school', 'made', 'content', 'grader']",0,0.8738749027252197,MEME
-51,"['spill', 'fuel', 'port', 'work', 'maritime', 'water', 'ceuta', 'technology']",0,0.5551802515983582,MEME
-52,"['moon', 'stars', 'galaxy', 'thought', 'astronomers', 'planet', 'collided', 'earth']",0,0.7183272242546082,MEME
-53,"['avalanche', 'people', 'kashmir', 'killed', 'avalanches', 'soldiers', 'neelum', 'neelumvalley']",0,0.4457284808158874,NOISE
-54,"['sunk', 'sinking', 'ship', 'british', 'boat', 'anyone', 'cost', 'days']",0,0.444295197725296,NOISE
-55,"['sniping', 'sniper', 'best', 'looks', 'decent', 'weekend', 'pellington', 'cold']",0,0.3882274329662323,NOISE
-56,"['army', 'bighit', 'bomb', 'bangtan', 'fandom', 'armys', 'music', 'weverse']",0,0.3851161897182464,NOISE
-57,"['dream', 'dreams', 'like', 'good', 'really', 'time', 'sounds', 'fucking']",0,0.4962011575698852,NOISE
-58,"['zombies', 'fucking', 'black', 'cold', 'zombie', 'like', 'latest', 'hooray']",0,0.4229937493801117,NOISE
-59,"['love', 'thank', 'guys', 'giveaway', 'want', 'best', 'huge', 'fast']",0,0.3927738666534424,NOISE
-60,"['oscars', 'oscar', 'stars', 'movie', 'award', 'hollywood', 'james', 'know']",0,0.9076088666915894,MEME
-61,"['sleep', 'music', 'study', 'yoga', 'meditation', 'many', 'relaxing', 'stress']",0,0.7726461887359619,MEME
-62,"['country', 'about', 'been', 'both', 'think', 'very', 'some', 'like']",0,0.3669570088386535,NOISE
-63,"['fall', 'cliff', 'damage', 'danger', 'canonically', 'universe', 'video', 'does']",0,0.4961040318012237,NOISE
-64,"['mayhem', 'drop', 'borderlands', 'modifiers', 'drops', 'legendary', 'since', 'really']",0,0.3412297964096069,NOISE
-65,"['china', 'know', 'history', 'taiwan', 'like', 'unless', 'dollar', 'because']",0,0.6222676038742065,MEME
-66,"['game', 'mode', 'sometimes', 'because', 'ever', 'register', 'sbmm', 'spawn']",0,0.3674422800540924,NOISE
-67,"['body', 'parts', 'dublin', 'found', 'human', 'north', 'coolock', 'discovered']",0,0.4800575375556946,NOISE
-68,"['heat', 'wave', 'january', 'engulfed', 'eastern', 'half', 'toppling', 'records']",0,0.4246273636817932,NOISE
-69,"['royal', 'meghan', 'harry', 'prince', 'queen', 'elizabeth', 'death', 'family']",0,0.6548090577125549,MEME
-70,"['area', 'home', 'life', 'work', 'down', 'comes', 'exciting', 'some']",0,0.9539217948913574,MEME
+46,"['hyped', 'movie', 'shit', 'fucking', 'everyone', 'guys', 'would', 'watch']",50,0.4157850742340088,POSSIBLE EVENT
+47,"['hijacker', 'account', 'hijacking', 'hijack', 'email', 'cable', 'tesla', 'hacking']",14,0.4269568920135498,POSSIBLE EVENT
+48,"['stretcher', 'like', 'stretch', 'carried', 'after', 'section', 'need', 'love']",50,0.4244572818279266,POSSIBLE EVENT
+49,"['amazon', 'masks', 'about', 'face', 'take', 'mask', 'find', 'over']",50,0.4403963685035705,POSSIBLE EVENT
+50,"['teacher', 'college', 'students', 'student', 'school', 'made', 'content', 'grader']",50,0.8738749027252197,MEME
+51,"['spill', 'fuel', 'port', 'work', 'maritime', 'water', 'ceuta', 'technology']",50,0.5551802515983582,MEME
+52,"['moon', 'stars', 'galaxy', 'thought', 'astronomers', 'planet', 'collided', 'earth']",50,0.7183272242546082,MEME
+53,"['avalanche', 'people', 'kashmir', 'killed', 'avalanches', 'soldiers', 'neelum', 'neelumvalley']",50,0.4457284808158874,POSSIBLE EVENT
+54,"['sunk', 'sinking', 'ship', 'british', 'boat', 'anyone', 'cost', 'days']",50,0.444295197725296,POSSIBLE EVENT
+55,"['sniping', 'sniper', 'best', 'looks', 'decent', 'weekend', 'pellington', 'cold']",40,0.3882274329662323,POSSIBLE EVENT
+56,"['army', 'bighit', 'bomb', 'bangtan', 'fandom', 'armys', 'music', 'weverse']",50,0.3851161897182464,POSSIBLE EVENT
+57,"['dream', 'dreams', 'like', 'good', 'really', 'time', 'sounds', 'fucking']",50,0.4962011575698852,POSSIBLE EVENT
+58,"['zombies', 'fucking', 'black', 'cold', 'zombie', 'like', 'latest', 'hooray']",7,0.4229937493801117,POSSIBLE EVENT
+59,"['love', 'thank', 'guys', 'giveaway', 'want', 'best', 'huge', 'fast']",50,0.3927738666534424,POSSIBLE EVENT
+60,"['oscars', 'oscar', 'stars', 'movie', 'award', 'hollywood', 'james', 'know']",50,0.9076088666915894,MEME
+61,"['sleep', 'music', 'study', 'yoga', 'meditation', 'many', 'relaxing', 'stress']",50,0.7726461887359619,MEME
+62,"['country', 'about', 'been', 'both', 'think', 'very', 'some', 'like']",50,0.3669570088386535,REAL EVENT
+63,"['fall', 'cliff', 'damage', 'danger', 'canonically', 'universe', 'video', 'does']",50,0.4961040318012237,POSSIBLE EVENT
+64,"['mayhem', 'drop', 'borderlands', 'modifiers', 'drops', 'legendary', 'since', 'really']",50,0.3412297964096069,REAL EVENT
+65,"['china', 'know', 'history', 'taiwan', 'like', 'unless', 'dollar', 'because']",50,0.6222676038742065,MEME
+66,"['game', 'mode', 'sometimes', 'because', 'ever', 'register', 'sbmm', 'spawn']",50,0.3674422800540924,REAL EVENT
+67,"['body', 'parts', 'dublin', 'found', 'human', 'north', 'coolock', 'discovered']",50,0.4800575375556946,POSSIBLE EVENT
+68,"['heat', 'wave', 'january', 'engulfed', 'eastern', 'half', 'toppling', 'records']",50,0.4246273636817932,POSSIBLE EVENT
+69,"['royal', 'meghan', 'harry', 'prince', 'queen', 'elizabeth', 'death', 'family']",50,0.6548090577125549,MEME
+70,"['area', 'home', 'life', 'work', 'down', 'comes', 'exciting', 'some']",50,0.9539217948913574,MEME
 71,"['looks', 'amazing', 'warzone', 'similar', 'would', 'think', 'feel', 'finally']",0,0.3713123798370361,NOISE (GAMING)
 72,"['mercy', 'character', 'best', 'overwatch', 'because', 'love', 'sigma', 'players']",0,0.3722830712795257,NOISE (GAMING)
 73,"['treyarch', 'cartel', 'play', 'waiting', 'game', 'good', 'show', 'damn']",0,0.4263865351676941,NOISE
-74,"['crush', 'devastated', 'about', 'friend', 'like', 'there', 'said', 'really']",0,0.4225539863109588,NOISE
-75,"['fatality', 'death', 'fall', 'them', 'dead', 'murder', 'fatal', 'here']",0,0.5113139748573303,NOISE
-76,"['looks', 'cool', 'actually', 'pretty', 'dope', 'really', 'freaking', 'dammit']",0,0.3309878408908844,NOISE
-77,"['bridge', 'collapse', 'build', 'tolls', 'crews', 'planning', 'cyclists', 'pedestrians']",0,0.5103273391723633,NOISE
-78,"['game', 'already', 'christ', 'even', 'lost', 'shit', 'make', 'stinks']",0,0.4253313839435577,NOISE
-79,"['state', 'annihilated', 'team', 'clemson', 'ohio', 'college', 'football', 'year']",0,0.5077856779098511,NOISE
+74,"['crush', 'devastated', 'about', 'friend', 'like', 'there', 'said', 'really']",50,0.4225539863109588,POSSIBLE EVENT
+75,"['fatality', 'death', 'fall', 'them', 'dead', 'murder', 'fatal', 'here']",50,0.5113139748573303,POSSIBLE EVENT
+76,"['looks', 'cool', 'actually', 'pretty', 'dope', 'really', 'freaking', 'dammit']",50,0.3309878408908844,REAL EVENT
+77,"['bridge', 'collapse', 'build', 'tolls', 'crews', 'planning', 'cyclists', 'pedestrians']",50,0.5103273391723633,POSSIBLE EVENT
+78,"['game', 'already', 'christ', 'even', 'lost', 'shit', 'make', 'stinks']",50,0.4253313839435577,POSSIBLE EVENT
+79,"['state', 'annihilated', 'team', 'clemson', 'ohio', 'college', 'football', 'year']",50,0.5077856779098511,POSSIBLE EVENT
 80,"['playstation', 'sony', 'store', 'game', 'good', 'credit', 'best', 'always']",0,0.401021659374237,NOISE (GAMING)
-81,"['amazon', 'super', 'bowl', 'commercials', 'watch', 'look', 'good', 'only']",0,0.7573187947273254,MEME
-82,"['hair', 'like', 'heard', 'bangs', 'toxic', 'masculinity', 'amazon', 'back']",0,0.7160200476646423,MEME
-83,"['boss', 'next', 'hello', 'tuned', 'week', 'reddit', 'friend', 'stay']",0,0.8021435141563416,MEME
-84,"['crazy', 'hilarious', 'love', 'ridiculous', 'brutal', 'repugnant', 'insane', 'funny']",0,0.3694331347942352,NOISE
+81,"['amazon', 'super', 'bowl', 'commercials', 'watch', 'look', 'good', 'only']",50,0.7573187947273254,MEME
+82,"['hair', 'like', 'heard', 'bangs', 'toxic', 'masculinity', 'amazon', 'back']",50,0.7160200476646423,MEME
+83,"['boss', 'next', 'hello', 'tuned', 'week', 'reddit', 'friend', 'stay']",50,0.8021435141563416,MEME
+84,"['crazy', 'hilarious', 'love', 'ridiculous', 'brutal', 'repugnant', 'insane', 'funny']",50,0.3694331347942352,REAL EVENT
 85,"['huge', 'bitch', 'eyes', 'size', 'imagine', 'complaining', 'realistic', 'body']",0,0.4300169050693512,NOISE
 86,"['borderlands', 'play', 'xbox', 'crashes', 'crashing', 'even', 'launch', 'reason']",0,0.3172792494297027,NOISE (GAMING)
-87,"['doing', 'youre', 'sold', 'gods', 'work', 'offended', 'buying', 'done']",0,0.391975849866867,NOISE
-88,"['shark', 'lobster', 'whales', 'whale', 'fish', 'kill', 'only', 'goldfish']",0,0.9520319700241088,MEME
+87,"['doing', 'youre', 'sold', 'gods', 'work', 'offended', 'buying', 'done']",50,0.391975849866867,POSSIBLE EVENT
+88,"['shark', 'lobster', 'whales', 'whale', 'fish', 'kill', 'only', 'goldfish']",50,0.9520319700241088,MEME
 89,"['next', 'moira', 'overwatch', 'legendary', 'stars', 'mercy', 'skins', 'wait']",0,0.353228896856308,NOISE (GAMING)
 90,"['overwatch', 'team', 'remember', 'bottom', 'people', 'days', 'players', 'winners']",0,0.3340242803096771,NOISE (GAMING)
-91,"['year', 'bottom', 'everyone', 'best', 'left', 'want', 'fucking', 'does']",0,0.5169349908828735,NOISE
-92,"['amazon', 'casual', 'women', 'shirt', 'polo', 'cenizas', 'comfortable', 'urban']",0,0.5406954288482666,MEME
-93,"['love', 'more', 'chris', 'borderlands', 'loving', 'tentacle', 'impression', 'loves']",0,0.4113998711109161,NOISE
-94,"['health', 'access', 'most', 'care', 'them', 'there', 'poverty', 'same']",0,0.5621470808982849,MEME
-95,"['photos', 'wonderful', 'cool', 'cover', 'gallery', 'entrancing', 'thalyssra', 'photo']",0,0.694941520690918,MEME
-96,"['would', 'again', 'cant', 'tell', 'caused', 'thinking']",0,0.3126514852046966,NOISE
-97,"['pope', 'francis', 'vatican', 'church', 'abuse', 'catholic', 'saint', 'paul']",0,0.9173381328582764,MEME
-98,"['collide', 'worlds', 'collided', 'earth', 'parallel', 'platforms', 'like', 'right']",0,0.3844628632068634,NOISE
-99,"['fashion', 'woman', 'slow', 'makeup', 'beauty', 'stylist', 'should', 'care']",0,0.9500349760055542,MEME
-100,"['toilet', 'machine', 'bathroom', 'amazon', 'order', 'either', 'collect', 'another']",0,0.7744986414909363,MEME
+91,"['year', 'bottom', 'everyone', 'best', 'left', 'want', 'fucking', 'does']",50,0.5169349908828735,POSSIBLE EVENT
+92,"['amazon', 'casual', 'women', 'shirt', 'polo', 'cenizas', 'comfortable', 'urban']",50,0.5406954288482666,MEME
+93,"['love', 'more', 'chris', 'borderlands', 'loving', 'tentacle', 'impression', 'loves']",50,0.4113998711109161,POSSIBLE EVENT
+94,"['health', 'access', 'most', 'care', 'them', 'there', 'poverty', 'same']",50,0.5621470808982849,MEME
+95,"['photos', 'wonderful', 'cool', 'cover', 'gallery', 'entrancing', 'thalyssra', 'photo']",50,0.694941520690918,MEME
+96,"['would', 'again', 'cant', 'tell', 'caused', 'thinking']",50,0.3126514852046966,REAL EVENT
+97,"['pope', 'francis', 'vatican', 'church', 'abuse', 'catholic', 'saint', 'paul']",50,0.9173381328582764,MEME
+98,"['collide', 'worlds', 'collided', 'earth', 'parallel', 'platforms', 'like', 'right']",50,0.3844628632068634,POSSIBLE EVENT
+99,"['fashion', 'woman', 'slow', 'makeup', 'beauty', 'stylist', 'should', 'care']",50,0.9500349760055542,MEME
+100,"['toilet', 'machine', 'bathroom', 'amazon', 'order', 'either', 'collect', 'another']",50,0.7744986414909363,MEME
 101,"['commission', 'taken', 'first', 'time', 'such', 'step', 'greendeal', 'another']",0,0.4377360045909881,NOISE
-102,"['buff', 'type', 'slaps', 'taglia', 'prezzo', 'euro', 'guys', 'smash']",0,0.3244421482086181,NOISE
-103,"['emergency', 'radiation', 'nuclear', 'alert', 'plant', 'power', 'about', 'case']",0,0.446525901556015,NOISE
-104,"['year', 'shit', 'sorry', 'imagine', 'championship', 'else', 'wrong', 'jesus']",0,0.4087917506694793,NOISE
-105,"['curfew', 'past', 'like', 'girl', 'scared', 'someone', 'singing', 'overtime']",0,0.4382053911685943,NOISE
-106,"['people', 'hard', 'doesn', 'apply', 'twice', 'upset', 'thing', 'then']",0,0.3989059329032898,NOISE
-107,"['lebron', 'game', 'time', 'james', 'knicks', 'seasons', 'season', 'blew']",0,0.7001392245292664,MEME
+102,"['buff', 'type', 'slaps', 'taglia', 'prezzo', 'euro', 'guys', 'smash']",50,0.3244421482086181,REAL EVENT
+103,"['emergency', 'radiation', 'nuclear', 'alert', 'plant', 'power', 'about', 'case']",50,0.446525901556015,POSSIBLE EVENT
+104,"['year', 'shit', 'sorry', 'imagine', 'championship', 'else', 'wrong', 'jesus']",50,0.4087917506694793,POSSIBLE EVENT
+105,"['curfew', 'past', 'like', 'girl', 'scared', 'someone', 'singing', 'overtime']",50,0.4382053911685943,POSSIBLE EVENT
+106,"['people', 'hard', 'doesn', 'apply', 'twice', 'upset', 'thing', 'then']",50,0.3989059329032898,POSSIBLE EVENT
+107,"['lebron', 'game', 'time', 'james', 'knicks', 'seasons', 'season', 'blew']",50,0.7001392245292664,MEME
 108,"['best', 'screen', 'protect', 'amazon', 'samsung', 'galaxy', 'protector', 'buff']",0,0.3984963595867157,NOISE
-109,"['dead', 'take', 'shameful', 'after', 'fucking', 'time', 'left', 'through']",0,0.4159862995147705,NOISE
+109,"['dead', 'take', 'shameful', 'after', 'fucking', 'time', 'left', 'through']",50,0.4159862995147705,POSSIBLE EVENT
 110,"['kidding', 'rolleyes', 'fucking', 'totally', 'trolling', 'think', 'troll', 'every']",0,0.3608911335468292,NOISE
-111,"['nerf', 'look', 'like', 'another', 'tiny', 'tina', 'love', 'cosplay']",0,0.4004054963588714,NOISE
-112,"['people', 'sweat', 'definitive', 'meat', 'irony', 'hole', 'curse']",0,0.4069896936416626,NOISE
-113,"['work', 'proud', 'list', 'because', 'manager', 'show', 'productivity', 'reclaiming']",0,0.756040632724762,MEME
-114,"['archives', 'amazon', 'best', 'vintage', 'football', 'perfect', 'great', 'highly']",0,0.6769838929176331,MEME
-115,"['love', 'tentacles', 'guns', 'borderlands', 'best', 'weapons', 'here', 'reasons']",0,0.3588471114635467,NOISE
+111,"['nerf', 'look', 'like', 'another', 'tiny', 'tina', 'love', 'cosplay']",50,0.4004054963588714,POSSIBLE EVENT
+112,"['people', 'sweat', 'definitive', 'meat', 'irony', 'hole', 'curse']",50,0.4069896936416626,POSSIBLE EVENT
+113,"['work', 'proud', 'list', 'because', 'manager', 'show', 'productivity', 'reclaiming']",50,0.756040632724762,MEME
+114,"['archives', 'amazon', 'best', 'vintage', 'football', 'perfect', 'great', 'highly']",50,0.6769838929176331,MEME
+115,"['love', 'tentacles', 'guns', 'borderlands', 'best', 'weapons', 'here', 'reasons']",50,0.3588471114635467,REAL EVENT
 116,"['watch', 'youtube', 'same', 'youtubers', 'favorite', 'excited', 'more', 'life']",0,0.4510760009288788,NOISE
-117,"['roth', 'borderlands', 'movie', 'film', 'sure', 'making', 'about', 'also']",0,0.4479037523269653,NOISE
-118,"['cats', 'flattened', 'flat', 'headed', 'found', 'ears', 'tell', 'shelter']",0,0.8220632076263428,MEME
+117,"['roth', 'borderlands', 'movie', 'film', 'sure', 'making', 'about', 'also']",7,0.4479037523269653,POSSIBLE EVENT
+118,"['cats', 'flattened', 'flat', 'headed', 'found', 'ears', 'tell', 'shelter']",37,0.8220632076263428,MEME
 119,"['jenner', 'kardashian', 'caitlyn', 'kris', 'kourtney', 'scott', 'disick', 'jessica']",0,0.9770724773406982,NOISE (GAMING)
-120,"['israel', 'palestinian', 'demolish', 'house', 'gaza', 'homes', 'israeli', 'family']",0,0.519927442073822,NOISE
+120,"['israel', 'palestinian', 'demolish', 'house', 'gaza', 'homes', 'israeli', 'family']",50,0.519927442073822,POSSIBLE EVENT
 121,"['gaming', 'game', 'until', 'really', 'into', 'youtu', 'best', 'temporary']",0,0.4454874098300934,NOISE (GAMING)
-122,"['official', 'announcements', 'while', 'next', 'more', 'games', 'about', 'there']",0,0.3955797553062439,NOISE
-123,"['facebook', 'social', 'distancing', 'news', 'sexy', 'them', 'woman', 'time']",0,0.809002697467804,MEME
-124,"['hard', 'even', 'embarrassing', 'shit', 'looks', 'core', 'makes', 'harder']",0,0.3768132925033569,NOISE
-125,"['birthday', 'great', 'happy', 'would', 'crab', 'legs', 'watching', 'goofy']",0,0.3966775834560394,NOISE
-126,"['like', 'looks', 'most', 'expected', 'months', 'seems', 'april', 'fools']",0,0.4131863415241241,NOISE
+122,"['official', 'announcements', 'while', 'next', 'more', 'games', 'about', 'there']",50,0.3955797553062439,POSSIBLE EVENT
+123,"['facebook', 'social', 'distancing', 'news', 'sexy', 'them', 'woman', 'time']",50,0.809002697467804,MEME
+124,"['hard', 'even', 'embarrassing', 'shit', 'looks', 'core', 'makes', 'harder']",50,0.3768132925033569,REAL EVENT
+125,"['birthday', 'great', 'happy', 'would', 'crab', 'legs', 'watching', 'goofy']",50,0.3966775834560394,POSSIBLE EVENT
+126,"['like', 'looks', 'most', 'expected', 'months', 'seems', 'april', 'fools']",50,0.4131863415241241,POSSIBLE EVENT
 127,"['microsoft', 'cloud', 'xbox', 'really', 'damn', 'literally', 'take', 'cheap']",0,0.4859744608402252,NOISE (GAMING)
-128,"['play', 'please', 'some', 'update', 'audio', 'hard', 'borderlands', 'also']",0,0.3351884186267853,NOISE
-129,"['apologizes', 'trump', 'apologize', 'back', 'franken', 'after', 'tour', 'people']",0,0.977581262588501,MEME
-130,"['randy', 'pitchford', 'older', 'like', 'really', 'than', 'been', 'again']",0,0.4102414548397064,NOISE
-131,"['make', 'instagram', 'video', 'myself', 'awhile']",0,0.3649917244911194,NOISE
-132,"['schumer', 'penn', 'station', 'renews', 'call', 'suicide', 'bomb', 'detectors']",0,0.33370441198349,NOISE
-133,"['debris', 'some', 'closed', 'traffic', 'south', 'streets', 'emergency', 'lane']",0,0.4079686105251312,NOISE
-134,"['nothing', 'worst', 'promise', 'fuck', 'achieve', 'myself', 'fault', 'ever']",0,0.5254114270210266,NOISE
+128,"['play', 'please', 'some', 'update', 'audio', 'hard', 'borderlands', 'also']",50,0.3351884186267853,REAL EVENT
+129,"['apologizes', 'trump', 'apologize', 'back', 'franken', 'after', 'tour', 'people']",50,0.977581262588501,MEME
+130,"['randy', 'pitchford', 'older', 'like', 'really', 'than', 'been', 'again']",19,0.4102414548397064,POSSIBLE EVENT
+131,"['make', 'instagram', 'video', 'myself', 'awhile']",50,0.3649917244911194,REAL EVENT
+132,"['schumer', 'penn', 'station', 'renews', 'call', 'suicide', 'bomb', 'detectors']",50,0.33370441198349,REAL EVENT
+133,"['debris', 'some', 'closed', 'traffic', 'south', 'streets', 'emergency', 'lane']",50,0.4079686105251312,POSSIBLE EVENT
+134,"['nothing', 'worst', 'promise', 'fuck', 'achieve', 'myself', 'fault', 'ever']",50,0.5254114270210266,POSSIBLE EVENT
 135,"['game', 'video', 'call', 'gamer', 'real', 'would', 'youtu', 'scary']",0,0.5027135610580444,NOISE (GAMING)
-136,"['mudslide', 'landslide', 'gonna', 'always', 'mountain', 'wanna', 'avalanche', 'loza']",0,0.4645133912563324,NOISE
-137,"['battle', 'need', 'backup', 'omega', 'grimnir', 'luminiera', 'leviathan', 'colossus']",0,0.2751215994358063,NOISE
-138,"['awesome', 'every', 'also', 'worth', 'reading', 'crickets', 'terrible', 'dying']",0,0.3387595415115356,NOISE
-139,"['game', 'best', 'good', 'games', 'unpopular', 'opinion', 'none', 'those']",0,0.4428660273551941,NOISE
-140,"['korea', 'north', 'missile', 'jong', 'nuclear', 'pressure', 'fires', 'range']",0,0.9778408408164978,MEME
-141,"['corruption', 'workers', 'thought', 'safety', 'political', 'well', 'immoral', 'plague']",0,0.512356698513031,NOISE
-142,"['abortion', 'planned', 'parenthood', 'birth', 'blight', 'also', 'think', 'proposal']",0,0.8707658648490906,MEME
-143,"['food', 'farm', 'farmers', 'about', 'agriculture', 'prices', 'should', 'vegetables']",0,0.5603558421134949,MEME
+136,"['mudslide', 'landslide', 'gonna', 'always', 'mountain', 'wanna', 'avalanche', 'loza']",50,0.4645133912563324,POSSIBLE EVENT
+137,"['battle', 'need', 'backup', 'omega', 'grimnir', 'luminiera', 'leviathan', 'colossus']",50,0.2751215994358063,REAL EVENT
+138,"['awesome', 'every', 'also', 'worth', 'reading', 'crickets', 'terrible', 'dying']",50,0.3387595415115356,REAL EVENT
+139,"['game', 'best', 'good', 'games', 'unpopular', 'opinion', 'none', 'those']",50,0.4428660273551941,POSSIBLE EVENT
+140,"['korea', 'north', 'missile', 'jong', 'nuclear', 'pressure', 'fires', 'range']",50,0.9778408408164978,MEME
+141,"['corruption', 'workers', 'thought', 'safety', 'political', 'well', 'immoral', 'plague']",50,0.512356698513031,POSSIBLE EVENT
+142,"['abortion', 'planned', 'parenthood', 'birth', 'blight', 'also', 'think', 'proposal']",50,0.8707658648490906,MEME
+143,"['food', 'farm', 'farmers', 'about', 'agriculture', 'prices', 'should', 'vegetables']",50,0.5603558421134949,MEME
 144,"['sandstorm', 'pokemon', 'like', 'darude', 'raihan', 'type', 'effected', 'nice']",0,0.3676601648330688,NOISE (GAMING)
-145,"['lightning', 'been', 'scared', 'bolt', 'look', 'inside', 'tree', 'struck']",0,0.3693227767944336,NOISE
-146,"['italy', 'team', 'brothers', 'channel', 'please', 'talented', 'people', 'call']",0,0.3752054870128631,NOISE
-147,"['amazon', 'bicycle', 'amzn', 'most', 'garmin', 'forerunner', 'back', 'radiant']",0,0.3868739008903503,NOISE
-148,"['amazon', 'more', 'live', 'products', 'personalize', 'including', 'healthy', 'check']",0,0.5096960067749023,NOISE
-149,"['archaeologists', 'like', 'them', 'rubble', 'mass', 'grave', 'dinosaurs', 'geologists']",0,0.8960914611816406,MEME
+145,"['lightning', 'been', 'scared', 'bolt', 'look', 'inside', 'tree', 'struck']",50,0.3693227767944336,REAL EVENT
+146,"['italy', 'team', 'brothers', 'channel', 'please', 'talented', 'people', 'call']",50,0.3752054870128631,REAL EVENT
+147,"['amazon', 'bicycle', 'amzn', 'most', 'garmin', 'forerunner', 'back', 'radiant']",50,0.3868739008903503,POSSIBLE EVENT
+148,"['amazon', 'more', 'live', 'products', 'personalize', 'including', 'healthy', 'check']",50,0.5096960067749023,POSSIBLE EVENT
+149,"['archaeologists', 'like', 'them', 'rubble', 'mass', 'grave', 'dinosaurs', 'geologists']",50,0.8960914611816406,MEME
 150,"['vampire', 'video', 'thriller', 'some', 'wild', 'west', 'virginia', 'knoxville']",0,0.4253649413585663,NOISE
-151,"['foot', 'amazon', 'brush', 'boots', 'wait', 'revlon', 'really', 'never']",0,0.4748614132404327,NOISE
-152,"['like', 'throw', 'trash', 'hard', 'such', 'backkkkkkk', 'hate', 'trying']",0,0.3657396137714386,NOISE
-153,"['would', 'grateful', 'emailed', 'been', 'thanks', 'mistake', 'inundated', 'good']",0,0.3397178053855896,NOISE
-154,"['halloween', 'month', 'hell', 'already', 'into', 'candy', 'costumes', 'goes']",0,0.8618231415748596,MEME
-155,"['singh', 'davinder', 'terrorists', 'police', 'attack', 'kashmir', 'arrest', 'caught']",0,0.4134199023246765,NOISE
-156,"['alexa', 'amazon', 'data', 'researchers', 'could', 'allow', 'attackers', 'access']",0,0.5331729650497437,NOISE
-157,"['marijuana', 'weed', 'legal', 'cannabis', 'about', 'medical', 'more', 'illegal']",0,0.743398904800415,MEME
-158,"['like', 'really', 'actually', 'enjoying', 'different', 'angles', 'digging', 'crisp']",0,0.6045714616775513,MEME
+151,"['foot', 'amazon', 'brush', 'boots', 'wait', 'revlon', 'really', 'never']",50,0.4748614132404327,POSSIBLE EVENT
+152,"['like', 'throw', 'trash', 'hard', 'such', 'backkkkkkk', 'hate', 'trying']",50,0.3657396137714386,REAL EVENT
+153,"['would', 'grateful', 'emailed', 'been', 'thanks', 'mistake', 'inundated', 'good']",50,0.3397178053855896,REAL EVENT
+154,"['halloween', 'month', 'hell', 'already', 'into', 'candy', 'costumes', 'goes']",50,0.8618231415748596,MEME
+155,"['singh', 'davinder', 'terrorists', 'police', 'attack', 'kashmir', 'arrest', 'caught']",50,0.4134199023246765,POSSIBLE EVENT
+156,"['alexa', 'amazon', 'data', 'researchers', 'could', 'allow', 'attackers', 'access']",50,0.5331729650497437,POSSIBLE EVENT
+157,"['marijuana', 'weed', 'legal', 'cannabis', 'about', 'medical', 'more', 'illegal']",50,0.743398904800415,MEME
+158,"['like', 'really', 'actually', 'enjoying', 'different', 'angles', 'digging', 'crisp']",50,0.6045714616775513,MEME
 159,"['play', 'some', 'time', 'apparently', 'seem', 'plays', 'cant', 'nice']",0,0.3777515292167663,NOISE
 160,"['more', 'being', 'only', 'game', 'gameplay', 'content', 'already', 'played']",0,0.3602326214313507,NOISE (GAMING)
-161,"['movement', 'game', 'than', 'animations', 'mechanics', 'really', 'black', 'cold']",0,0.332525372505188,NOISE
-162,"['interesting', 'very', 'intrigued', 'ohhhh', 'interested', 'hmmm', 'rappoport', 'know']",0,0.3300479650497436,NOISE
-163,"['love', 'fucking', 'baby', 'like', 'feed', 'burrito', 'bowl', 'hand']",0,0.4390235841274261,NOISE
-164,"['ireland', 'irish', 'england', 'scotland', 'scottish', 'great', 'both', 'says']",0,0.6108611226081848,MEME
-165,"['mwangi', 'kenya', 'president', 'tanga', 'uhuru', 'kenyatta', 'raila', 'odinga']",0,0.4579829275608063,NOISE
-166,"['character', 'futa', 'game', 'video', 'hottest', 'tyreen', 'might', 'worst']",0,0.3542620241641998,NOISE
-167,"['homeless', 'people', 'homelessness', 'poor', 'gentrification', 'america', 'bung', 'education']",0,0.8263472318649292,MEME
+161,"['movement', 'game', 'than', 'animations', 'mechanics', 'really', 'black', 'cold']",50,0.332525372505188,REAL EVENT
+162,"['interesting', 'very', 'intrigued', 'ohhhh', 'interested', 'hmmm', 'rappoport', 'know']",50,0.3300479650497436,REAL EVENT
+163,"['love', 'fucking', 'baby', 'like', 'feed', 'burrito', 'bowl', 'hand']",50,0.4390235841274261,POSSIBLE EVENT
+164,"['ireland', 'irish', 'england', 'scotland', 'scottish', 'great', 'both', 'says']",50,0.6108611226081848,MEME
+165,"['mwangi', 'kenya', 'president', 'tanga', 'uhuru', 'kenyatta', 'raila', 'odinga']",50,0.4579829275608063,POSSIBLE EVENT
+166,"['character', 'futa', 'game', 'video', 'hottest', 'tyreen', 'might', 'worst']",7,0.3542620241641998,POSSIBLE EVENT
+167,"['homeless', 'people', 'homelessness', 'poor', 'gentrification', 'america', 'bung', 'education']",50,0.8263472318649292,MEME
 168,"['league', 'overwatch', 'look', 'real', 'looks', 'clip', 'better', 'anything']",0,0.478196233510971,NOISE (GAMING)
-169,"['happy', 'sunday', 'green', 'monday', 'saturday', 'good', 'eachstaraworld', 'roundup']",0,0.4868622720241546,NOISE
-170,"['very', 'possible', 'amazing', 'things', 'work', 'together', 'better', 'future']",0,0.5552249550819397,MEME
+169,"['happy', 'sunday', 'green', 'monday', 'saturday', 'good', 'eachstaraworld', 'roundup']",50,0.4868622720241546,POSSIBLE EVENT
+170,"['very', 'possible', 'amazing', 'things', 'work', 'together', 'better', 'future']",50,0.5552249550819397,MEME
 171,"['followers', 'today', 'more', 'some', 'thank', 'guys', 'watching', 'overwatch']",0,0.3943277895450592,NOISE (GAMING)
-172,"['blight', 'green', 'available', 'amazon', 'plants', 'fingers', 'simply', 'adore']",0,0.4432972967624664,NOISE
-173,"['maurice', 'last', 'race', 'dancer', 'look', 'caballero', 'rafiki', 'electric']",0,0.5526423454284668,MEME
+172,"['blight', 'green', 'available', 'amazon', 'plants', 'fingers', 'simply', 'adore']",50,0.4432972967624664,POSSIBLE EVENT
+173,"['maurice', 'last', 'race', 'dancer', 'look', 'caballero', 'rafiki', 'electric']",50,0.5526423454284668,MEME
 174,"['echo', 'overwatch', 'skin', 'back', 'into', 'missed', 'want', 'halloween']",0,0.3714829087257385,NOISE (GAMING)
 175,"['cars', 'super', 'vehicles', 'annoying', 'people', 'look', 'more', 'parking']",0,0.5426805019378662,MEME
 176,"['tracer', 'overwatch', 'striker', 'fuck', 'added', 'genji', 'would', 'better']",0,0.2904344499111175,NOISE (GAMING)
 177,"['rhandlerr', 'twitter', 'right', 'doesn', 'look', 'noticing', 'shouldn', 'payouts']",0,0.3247669637203216,NOISE
-178,"['annihilation', 'annihilated', 'like', 'about', 'thot', 'status', 'must', 'good']",0,0.3685350120067596,NOISE
-179,"['order', 'sage', 'lemon', 'know', 'amazon', 'bestantiaginge', 'ever', 'store']",0,0.474726527929306,NOISE
+178,"['annihilation', 'annihilated', 'like', 'about', 'thot', 'status', 'must', 'good']",50,0.3685350120067596,REAL EVENT
+179,"['order', 'sage', 'lemon', 'know', 'amazon', 'bestantiaginge', 'ever', 'store']",50,0.474726527929306,POSSIBLE EVENT
 180,"['running', 'fitness', 'more', 'life', 'workout', 'first', 'legit', 'someone']",0,0.8249108195304871,MEME
-181,"['homer', 'driving', 'drunk', 'collided', 'woman', 'person', 'battery', 'middle']",0,0.4702618420124054,NOISE
-182,"['horses', 'volcano', 'island', 'taal', 'local', 'horse', 'animals', 'veterinarian']",0,0.4531576335430145,NOISE
-183,"['comic', 'nothing', 'different', 'amazing', 'work', 'andes', 'amazon', 'hell']",0,0.5601580739021301,MEME
-184,"['thank', 'lord', 'jeff', 'papa', 'giving', 'changes', 'praying', 'lovely']",0,0.3959745466709137,NOISE
-185,"['skin', 'weapon', 'well', 'love', 'especially', 'many', 'complicated', 'incredible']",0,0.3905975818634033,NOISE
-186,"['holy', 'shit', 'fucking', 'unreal', 'balls', 'fuck', 'sick', 'jesus']",0,0.3958329558372497,NOISE
-187,"['suicide', 'isis', 'strap', 'vests', 'puppies', 'horror', 'footage', 'sick']",0,0.5441591739654541,MEME
+181,"['homer', 'driving', 'drunk', 'collided', 'woman', 'person', 'battery', 'middle']",50,0.4702618420124054,POSSIBLE EVENT
+182,"['horses', 'volcano', 'island', 'taal', 'local', 'horse', 'animals', 'veterinarian']",50,0.4531576335430145,POSSIBLE EVENT
+183,"['comic', 'nothing', 'different', 'amazing', 'work', 'andes', 'amazon', 'hell']",50,0.5601580739021301,MEME
+184,"['thank', 'lord', 'jeff', 'papa', 'giving', 'changes', 'praying', 'lovely']",50,0.3959745466709137,POSSIBLE EVENT
+185,"['skin', 'weapon', 'well', 'love', 'especially', 'many', 'complicated', 'incredible']",50,0.3905975818634033,POSSIBLE EVENT
+186,"['holy', 'shit', 'fucking', 'unreal', 'balls', 'fuck', 'sick', 'jesus']",50,0.3958329558372497,POSSIBLE EVENT
+187,"['suicide', 'isis', 'strap', 'vests', 'puppies', 'horror', 'footage', 'sick']",50,0.5441591739654541,MEME
 188,"['please', 'dont', 'pleases', 'fuck', 'fake', 'again', 'about', 'piss']",0,0.3332651853561401,NOISE
 189,"['since', 'game', 'overwatch', 'first', 'watching', 'been', 'shit', 'breaks']",0,0.3554931282997131,NOISE (GAMING)
-190,"['chat', 'wildin', 'general', 'input', 'ummmm', 'connect', 'someone', 'posted']",0,0.3565721809864044,NOISE
+190,"['chat', 'wildin', 'general', 'input', 'ummmm', 'connect', 'someone', 'posted']",6,0.3565721809864044,POSSIBLE EVENT
 191,"['fellas', 'video', 'brought', 'back', 'memories', 'remember', 'gameplay', 'good']",0,0.3953238725662231,NOISE (GAMING)
-192,"['king', 'hail', 'facts', 'talk', 'much', 'shit', 'notice', 'dont']",0,0.427904337644577,NOISE
+192,"['king', 'hail', 'facts', 'talk', 'much', 'shit', 'notice', 'dont']",50,0.427904337644577,POSSIBLE EVENT
 193,"['fable', 'xbox', 'series', 'queen', 'king', 'might', 'tomorrow', 'read']",0,0.4101451635360718,NOISE (GAMING)
-194,"['been', 'maya', 'twitter', 'borderlands', 'time', 'hours', 'busy', 'wallpaper']",0,0.4652270078659057,NOISE
-195,"['true', 'unfortunately', 'very', 'kind', 'sadly', 'there']",0,0.3048149049282074,NOISE
-196,"['cute', 'could', 'would']",0,0.3268477916717529,NOISE
-197,"['olympic', 'olympics', 'gold', 'london', 'world', 'record', 'opening', 'about']",0,1.0,MEME
-198,"['apocalypse', 'like', 'ford', 'time', 'world', 'four', 'horsemen', 'eskenfilme']",0,0.3985756933689117,NOISE
-199,"['shit', 'need', 'bruh', 'know', 'again', 'fuck', 'seriously', 'been']",0,0.3817785978317261,NOISE
-200,"['boys', 'dreams', 'fight', 'need', 'destroyed', 'give', 'agencies', 'burning']",0,0.3752799928188324,NOISE
-201,"['south', 'africa', 'aids', 'epicentre', 'stigmabase', 'epidemic', 'health', 'state']",0,0.8616311550140381,MEME
-202,"['time', 'ranked', 'climb', 'highest', 'rise', 'number', 'classification', 'continues']",0,0.4789851605892181,NOISE
-203,"['gender', 'honestly', 'cool', 'slutty', 'mechanic', 'classified', 'listing', 'fuck']",0,0.4603007733821869,NOISE
+194,"['been', 'maya', 'twitter', 'borderlands', 'time', 'hours', 'busy', 'wallpaper']",50,0.4652270078659057,POSSIBLE EVENT
+195,"['true', 'unfortunately', 'very', 'kind', 'sadly', 'there']",50,0.3048149049282074,REAL EVENT
+196,"['cute', 'could', 'would']",50,0.3268477916717529,REAL EVENT
+197,"['olympic', 'olympics', 'gold', 'london', 'world', 'record', 'opening', 'about']",50,1.0,MEME
+198,"['apocalypse', 'like', 'ford', 'time', 'world', 'four', 'horsemen', 'eskenfilme']",50,0.3985756933689117,POSSIBLE EVENT
+199,"['shit', 'need', 'bruh', 'know', 'again', 'fuck', 'seriously', 'been']",50,0.3817785978317261,POSSIBLE EVENT
+200,"['boys', 'dreams', 'fight', 'need', 'destroyed', 'give', 'agencies', 'burning']",50,0.3752799928188324,REAL EVENT
+201,"['south', 'africa', 'aids', 'epicentre', 'stigmabase', 'epidemic', 'health', 'state']",50,0.8616311550140381,MEME
+202,"['time', 'ranked', 'climb', 'highest', 'rise', 'number', 'classification', 'continues']",50,0.4789851605892181,POSSIBLE EVENT
+203,"['gender', 'honestly', 'cool', 'slutty', 'mechanic', 'classified', 'listing', 'fuck']",50,0.4603007733821869,POSSIBLE EVENT
 204,"['pass', 'officer', 'season', 'complete', 'rank', 'call', 'duty', 'cold']",0,0.3570686280727386,NOISE
 205,"['beautiful', 'girlfriend', 'live', 'girl', 'right', 'support', 'gorgeous', 'overwatch']",0,0.4130361676216125,NOISE (GAMING)
-206,"['very', 'shit', 'wouldn', 'excuses', 'make', 'some', 'ignorant', 'meet']",0,0.5013158321380615,NOISE
-207,"['deluge', 'learn', 'more', 'much', 'course', 'training', 'about', 'scripting']",0,0.3813000917434692,NOISE
-208,"['venice', 'months', 'after', 'severe', 'floods', 'canals', 'almost', 'flooding']",0,0.3971118927001953,NOISE
-209,"['anything', 'live', 'tryna', 'shit', 'willing', 'afford', 'gonna', 'here']",0,0.3793656229972839,NOISE
-210,"['borderlands', 'back', 'credits', 'shit', 'girl', 'fire', 'forever', 'sasha']",0,0.3818591237068176,NOISE
-211,"['turkey', 'mess', 'amazon', 'turmoil', 'grainge', 'paul', 'organisation', 'body']",0,0.5347827076911926,NOISE
-212,"['amazon', 'vatican', 'conspiracy', 'worth', 'priest', 'truth', 'ancient', 'into']",0,0.571662962436676,MEME
+206,"['very', 'shit', 'wouldn', 'excuses', 'make', 'some', 'ignorant', 'meet']",50,0.5013158321380615,POSSIBLE EVENT
+207,"['deluge', 'learn', 'more', 'much', 'course', 'training', 'about', 'scripting']",50,0.3813000917434692,REAL EVENT
+208,"['venice', 'months', 'after', 'severe', 'floods', 'canals', 'almost', 'flooding']",50,0.3971118927001953,POSSIBLE EVENT
+209,"['anything', 'live', 'tryna', 'shit', 'willing', 'afford', 'gonna', 'here']",50,0.3793656229972839,REAL EVENT
+210,"['borderlands', 'back', 'credits', 'shit', 'girl', 'fire', 'forever', 'sasha']",50,0.3818591237068176,POSSIBLE EVENT
+211,"['turkey', 'mess', 'amazon', 'turmoil', 'grainge', 'paul', 'organisation', 'body']",50,0.5347827076911926,POSSIBLE EVENT
+212,"['amazon', 'vatican', 'conspiracy', 'worth', 'priest', 'truth', 'ancient', 'into']",50,0.571662962436676,MEME
 213,"['could', 'good', 'yooooo', 'hmmmmmm', 'really', 'hmmm', 'hmmmmmmmm', 'rather']",0,0.2992638945579529,NOISE
 214,"['fucking', 'gaming', 'news', 'about', 'people', 'want', 'papers', 'website']",0,0.4884311556816101,NOISE (GAMING)
 215,"['reduced', 'service', 'freight', 'running', 'there', 'moment', 'very', 'sorry']",0,0.3672023117542267,NOISE
