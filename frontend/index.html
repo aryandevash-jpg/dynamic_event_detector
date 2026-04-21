@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DETECT | Event Discovery Engine</title>
+  <link rel="stylesheet" href="/frontend/styles.css" />
+</head>
+
+<body>
+  <main class="page">
+    <header class="hero">
+      <p class="eyebrow">The Signal Engine</p>
+      <h1>Identify the <br />Signal.</h1>
+      <p class="lede">
+        Detect real-world events from the noise of social media. Our engine distinguishes hard facts from memes and
+        speculation in real-time.
+      </p>
+    </header>
+
+    <section class="examples">
+      <p class="examples-label">Trial Scenarios</p>
+      <div class="examples-grid">
+        <div class="example-card"
+          data-tweet="6.2 magnitude earthquake strikes southern Turkey, emergency services responding.">
+          <div class="type">Real Event</div>
+          <div class="text">"6.2 magnitude earthquake strikes southern Turkey..."</div>
+        </div>
+        <div class="example-card"
+          data-tweet="Hearing reports that AWS US-EAST-1 is seeing increased error rates, waiting for official confirmation.">
+          <div class="type">Possible Event</div>
+          <div class="text">"Hearing reports that AWS US-EAST-1 is seeing increased error rates..."</div>
+        </div>
+        <div class="example-card" data-tweet="skibidi toilet no cap lmao this is literally peak fiction 💀">
+          <div class="type">Meme / Sarcastic</div>
+          <div class="text">"skibidi toilet no cap lmao this is literally peak fiction..."</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="panel">
+      <div class="panel-header">
+        <h2>Analyze Source</h2>
+      </div>
+
+      <div class="input-group">
+        <label for="tweet">Text Input</label>
+        <textarea id="tweet" placeholder="Paste tweet or news snippet here..."></textarea>
+      </div>
+
+      <div class="actions">
+        <button id="detect-button">Run Detection</button>
+      </div>
+
+      <div id="detect-result" class="result hidden">
+        <!-- Populated by JS -->
+      </div>
+    </section>
+  </main>
+
+  <script src="/frontend/app.js"></script>
+</body>
+
+</html>

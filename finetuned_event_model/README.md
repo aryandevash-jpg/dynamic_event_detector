@@ -4,35 +4,46 @@ tags:
 - sentence-similarity
 - feature-extraction
 - generated_from_trainer
-- dataset_size:674
+- dataset_size:16740
 - loss:CosineSimilarityLoss
 base_model: sentence-transformers/all-MiniLM-L6-v2
 widget:
-- source_sentence: people money world work debt market economy report
+- source_sentence: mewing streak got broken rip
   sentences:
-  - women people woman couple wedding girlfriend about girl
-  - marijuana weed legal cannabis about medical more illegal
-  - people money world work debt market economy report
-- source_sentence: rescuers animals rescue rescued please dogs still home
+  - omg A powerful North Atlantic windstorm with violent hurricane-force winds and
+    major wave ⛈️
+  - new election ruling allows candidates to remain completely anonymous throughout
+    campaign
+  - Control rod mistakenly removed from Ikata reactor in Ehime during maintenance
+- source_sentence: omg 1975 was my 9/11 -- that's when radical terrorists blew up
+    my home, putting me in the 😷
   sentences:
-  - white black racism anti racist people call being
-  - demolition demolish demolished house buildings razed construction about
-  - china know history taiwan like unless dollar because
-- source_sentence: korea north missile jong nuclear pressure fires range
+  - hollywood's biggest stars endure long lines at oscars security screening
+  - bitch be gettin' all that way
+  - Her autopsy found that she was shot more than 20 times, and had both her legs
+    broken indicating severe physical assault, l…
+- source_sentence: delulu timeline is undefeated
   sentences:
-  - rescuers animals rescue rescued please dogs still home
-  - abortion planned parenthood birth blight also think proposal
-  - show best amazon documentary levy transfer world penny
-- source_sentence: korea north missile jong nuclear pressure fires range
+  - Blanket secrecy' surrounds Australian weapons sales to countries accused of war
+    crimes
+  - Rain and high-elevation snow showers can continue across northern Scotland on
+    Wednesday; otherwise, a brief break in the p…
+  - Avalanches hit Army &amp; BSF posts, 4 jawans rescued but 1 jawan is still missing.
+    Bad weather hampers rescue operations.
+- source_sentence: main character syndrome update
   sentences:
-  - korea north missile jong nuclear pressure fires range
-  - photos wonderful cool cover gallery entrancing thalyssra photo
-  - electrocute like electric wind turbines chop wires millions
-- source_sentence: fatality death fall them dead murder fatal here
+  - BTW, more Jews died in 1948 than Arabs. There was no mass murder. There was a
+    war. Started by Arabs.
+  - nation's gay straw men march on washington for right to marry animals
+  - everybody stay safe after seeing indian army struggling to pick dead bodies and
+    😳
+- source_sentence: bro cant believe this 🚨
   sentences:
-  - fatality death fall them dead murder fatal here
-  - game already christ even lost shit make stinks
-  - storm flood dust hurricane snowstorm rain drought weather
+  - jake corway wrecked running 14th but make it a meme page post
+  - omg A picture can speak a thousand words..... God Bless all those who are fighting
+    the te 🔥
+  - Stanley Park storm is where the bar is at for windstorm (10). So using that as
+    point of reference what we…
 pipeline_tag: sentence-similarity
 library_name: sentence-transformers
 ---
@@ -87,9 +98,9 @@ from sentence_transformers import SentenceTransformer
 model = SentenceTransformer("sentence_transformers_model_id")
 # Run inference
 sentences = [
-    'fatality death fall them dead murder fatal here',
-    'fatality death fall them dead murder fatal here',
-    'storm flood dust hurricane snowstorm rain drought weather',
+    'bro cant believe this 🚨',
+    'jake corway wrecked running 14th but make it a meme page post',
+    'omg A picture can speak a thousand words..... God Bless all those who are fighting the te 🔥',
 ]
 embeddings = model.encode(sentences)
 print(embeddings.shape)
@@ -98,9 +109,9 @@ print(embeddings.shape)
 # Get the similarity scores for the embeddings
 similarities = model.similarity(embeddings, embeddings)
 print(similarities)
-# tensor([[1.0000, 1.0000, 0.6295],
-#         [1.0000, 1.0000, 0.6295],
-#         [0.6295, 0.6295, 1.0000]])
+# tensor([[1.0000, 0.0462, 0.9262],
+#         [0.0462, 1.0000, 0.0513],
+#         [0.9262, 0.0513, 1.0000]])
 ```
 <!--
 ### Direct Usage (Transformers)
@@ -144,19 +155,19 @@ You can finetune this model on your own dataset.
 
 #### Unnamed Dataset
 
-* Size: 674 training samples
+* Size: 16,740 training samples
 * Columns: <code>sentence_0</code>, <code>sentence_1</code>, and <code>label</code>
-* Approximate statistics based on the first 674 samples:
-  |         | sentence_0                                                                        | sentence_1                                                                       | label                                                           |
-  |:--------|:----------------------------------------------------------------------------------|:---------------------------------------------------------------------------------|:----------------------------------------------------------------|
-  | type    | string                                                                            | string                                                                           | float                                                           |
-  | details | <ul><li>min: 5 tokens</li><li>mean: 11.77 tokens</li><li>max: 58 tokens</li></ul> | <ul><li>min: 9 tokens</li><li>mean: 11.4 tokens</li><li>max: 58 tokens</li></ul> | <ul><li>min: 0.05</li><li>mean: 0.59</li><li>max: 0.9</li></ul> |
+* Approximate statistics based on the first 1000 samples:
+  |         | sentence_0                                                                        | sentence_1                                                                        | label                                                          |
+  |:--------|:----------------------------------------------------------------------------------|:----------------------------------------------------------------------------------|:---------------------------------------------------------------|
+  | type    | string                                                                            | string                                                                            | float                                                          |
+  | details | <ul><li>min: 6 tokens</li><li>mean: 12.66 tokens</li><li>max: 35 tokens</li></ul> | <ul><li>min: 6 tokens</li><li>mean: 18.92 tokens</li><li>max: 37 tokens</li></ul> | <ul><li>min: 0.0</li><li>mean: 0.35</li><li>max: 0.9</li></ul> |
 * Samples:
-  | sentence_0                                                     | sentence_1                                                                  | label             |
-  |:---------------------------------------------------------------|:----------------------------------------------------------------------------|:------------------|
-  | <code>life them hellfire here shall those fear protect</code>  | <code>life them hellfire here shall those fear protect</code>               | <code>0.9</code>  |
-  | <code>health access most care them there poverty same</code>   | <code>photos wonderful cool cover gallery entrancing thalyssra photo</code> | <code>0.9</code>  |
-  | <code>like throw trash hard such backkkkkkk hate trying</code> | <code>south africa aids epicentre stigmabase epidemic health state</code>   | <code>0.05</code> |
+  | sentence_0                                                                                                      | sentence_1                                                                     | label             |
+  |:----------------------------------------------------------------------------------------------------------------|:-------------------------------------------------------------------------------|:------------------|
+  | <code>ngl showers storms affect area early morning got me stressed ⛈️</code>                                    | <code>new visa talking credit card urges buyers to go for it</code>            | <code>0.1</code>  |
+  | <code>nearby nonprofit housing displaced families from alpine motel and people are still acting normal 🚨</code> | <code>trying wreck is giving what a timeline</code>                            | <code>0.05</code> |
+  | <code>main character syndrome update</code>                                                                     | <code>ngl polish destroyer grom sunk during norwegian got me stressed 🚨</code> | <code>0.0</code>  |
 * Loss: [<code>CosineSimilarityLoss</code>](https://sbert.net/docs/package_reference/sentence_transformer/losses.html#cosinesimilarityloss) with these parameters:
   ```json
   {
@@ -274,11 +285,22 @@ You can finetune this model on your own dataset.
 
 </details>
 
+### Training Logs
+| Epoch  | Step | Training Loss |
+|:------:|:----:|:-------------:|
+| 0.4776 | 500  | 0.0526        |
+| 0.9551 | 1000 | 0.0036        |
+| 1.4327 | 1500 | 0.0013        |
+| 1.9102 | 2000 | 0.0010        |
+| 2.3878 | 2500 | 0.0007        |
+| 2.8653 | 3000 | 0.0006        |
+
+
 ### Training Time
-- **Training**: 26.9 seconds
+- **Training**: 5.6 minutes
 
 ### Framework Versions
-- Python: 3.12.7
+- Python: 3.13.12
 - Sentence Transformers: 5.4.1
 - Transformers: 5.5.4
 - PyTorch: 2.11.0
